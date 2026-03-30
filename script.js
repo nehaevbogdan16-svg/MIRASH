@@ -30,10 +30,10 @@ const clans = [
      membersCount: "1/30", 
      main: false, 
      leaders: [
-         { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", role: "Лидер", roleClass: "leader-role", main: true },
+         { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", role: "Лидер", roleClass: "leader-role", uid: "51514497454", main: true },
      ], 
      members: [
-         { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", tag: "ТГ: @God_FENRIR", rank: "...", role: "Лидер", roleClass: "leader-role" },
+         { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", tag: "ТГ: @God_FENRIR", rank: "51619988168", role: "Лидер", roleClass: "leader-role" },
      ], 
      top: ["🥇 ツGU×FENRIR"] },
     
