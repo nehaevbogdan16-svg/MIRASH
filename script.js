@@ -20,7 +20,7 @@ const clans = [
             { name: "ツGU×ГАЗ", avatar: "img/GAS.png", tag: "UID: 5438651452", rank: "Алмаз", role: "Член клана", roleClass: "member-role" },
            { name: "ツGU×DRANNIK", avatar: "img/DRANNIK.png", tag: "UID: 5647598839", rank: "Платина", role: "Член клана", roleClass: "member-role" }
         ],
-        top: ["🥇 ツGU×Bogdan", "🥈 ツGU×Margosha", "🥉 ツGU×Ｐｒｅｓ", "4 ツGU×Margosha"]
+        top: ["🥇 ツGU×Bogdan", "🥈 ツGU×Margosha", "🥉 ツGU×Ｐｒｅｓ", "4 ツGU×DRANNIK"]
     },
     { id: "storm", name: "STORM", avatar: "img/clan2.png", logo: "img/clan2.png", level: 5, membersCount: "20/60", main: false, leaders: [], members: [], top: [] },
     { id: "ghost", name: "GHOST", avatar: "img/clan3.png", logo: "img/clan3.png", level: 3, membersCount: "10/60", main: false, leaders: [], members: [], top: [] }
