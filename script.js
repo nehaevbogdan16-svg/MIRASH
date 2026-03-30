@@ -22,8 +22,31 @@ const clans = [
         ],
         top: ["🥇 ツGU×Bogdan", "🥈 ツGU×Margosha", "🥉 ツGU×Ｐｒｅｓ", "4 ツGU×DRANNIK"]
     },
-    { id: "storm", name: "STORM", avatar: "img/clan2.png", logo: "img/clan2.png", level: 5, membersCount: "20/60", main: false, leaders: [], members: [], top: [] },
-    { id: "ghost", name: "GHOST", avatar: "img/clan3.png", logo: "img/clan3.png", level: 3, membersCount: "10/60", main: false, leaders: [], members: [], top: [] }
+    { id: "storm", 
+     name: "ツGU×STORM", 
+     avatar: "img/clan2.png", 
+     logo: "img/clan2.png", 
+     level: 1, 
+     membersCount: "1/30", 
+     main: false, 
+     leaders: [
+         { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", role: "Лидер", roleClass: "leader-role", main: true },
+     ], 
+     members: [
+         { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", tag: "@God_FENRIR", rank: "...", role: "Лидер", roleClass: "leader-role" },
+     ], 
+     top: ["🥇 ツGU×FENRIR"] },
+    
+    { id: "ghost", 
+     name: "ツGU×GHOST", 
+     avatar: "img/clan3.png", 
+     logo: "img/clan3.png", 
+     level: 3, 
+     membersCount: "0/30", 
+     main: false, 
+     leaders: [], 
+     members: [], 
+     top: [] }
 ];
 
 // ===================== Главная =====================
