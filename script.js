@@ -19,7 +19,7 @@ const clans = [
             { name: "ツGU×Ｐｒｅｓ", avatar: "img/vlad.png", tag: "@Likorinenko", rank: "Алмаз", role: "Заместитель", roleClass: "zam-role" },
             { name: "GU×PEREC777", avatar: "img/PEREC.png", tag: "UID: 52356434633", rank: "Алмаз 1", role: "Член клана", roleClass: "member-role" }
             { name: "ツGU×ГАЗ", avatar: "img/GAS.png", tag: "UID: 5438651452", rank: "Алмаз", role: "Член клана", roleClass: "member-role" }
-            { name: "ツGU×DRANNIK", avatar: "img/DRANNIK.png", tag: "UID: 5647598839", rank: "Платина", role: "Член клана", roleClass: "member-role" }
+           
         ],
         top: ["🥇 Bogdan", "🥈 Margosha", "🥉 Pres"]
     },
