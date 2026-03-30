@@ -1,0 +1,15 @@
+/project
+│
+├─ index.html           ← главная страница академии
+├─ clan.html            ← страница отдельного клана
+├─ styles.css           ← все стили
+├─ script.js            ← скрипт для динамики
+└─ /img                 ← все аватарки и логотипы
+    ├─ logo.png
+    ├─ clan1.png
+    ├─ clan2.png
+    ├─ clan3.png
+    ├─ bogdan.png
+    ├─ margo.png
+    ├─ vlad.png
+    └─ vana.png
