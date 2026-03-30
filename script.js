@@ -6,7 +6,7 @@ const clans = [
         avatar: "img/clan1.png",
         logo: "img/logo.png",
         level: 8,
-        membersCount: "11/60",
+        membersCount: "12/60",
         main: true,
         leaders: [
             { name: "ツGU×Margosha", avatar: "img/margo.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
@@ -14,9 +14,9 @@ const clans = [
             { name: "ツGU×Ｐｒｅｓ", avatar: "img/vlad.png", role: "Заместитель", roleClass: "zam-role", uid: "5958320567" }
         ],
         members: [
-            { name: "ツGU×Bogdan", avatar: "img/bogdan.png", tag: "@Bogdan_10_07_24", rank: "Карона", role: "Лидер", roleClass: "leader-role" },
-            { name: "ツGU×Margosha", avatar: "img/margo.png", tag: "@ofiwxlz", rank: "Карона", role: "Заместитель", roleClass: "leader-role" },
-            { name: "ツGU×Ｐｒｅｓ", avatar: "img/vlad.png", tag: "@Likorinenko", rank: "Алмаз", role: "Заместитель", roleClass: "zam-role" },
+            { name: "ツGU×Bogdan", avatar: "img/bogdan.png", tag: "ТГ: @Bogdan_10_07_24", rank: "Карона", role: "Лидер", roleClass: "leader-role" },
+            { name: "ツGU×Margosha", avatar: "img/margo.png", tag: "ТГ: @ofiwxlz", rank: "Карона", role: "Заместитель", roleClass: "leader-role" },
+            { name: "ツGU×Ｐｒｅｓ", avatar: "img/vlad.png", tag: "ТГ: @Likorinenko", rank: "Алмаз", role: "Заместитель", roleClass: "zam-role" },
             { name: "ツGU×ГАЗ", avatar: "img/GAS.png", tag: "UID: 5438651452", rank: "Алмаз", role: "Член клана", roleClass: "member-role" },
            { name: "ツGU×DRANNIK", avatar: "img/DRANNIK.png", tag: "UID: 5647598839", rank: "Платина", role: "Член клана", roleClass: "member-role" }
         ],
@@ -33,7 +33,7 @@ const clans = [
          { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", role: "Лидер", roleClass: "leader-role", main: true },
      ], 
      members: [
-         { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", tag: "@God_FENRIR", rank: "...", role: "Лидер", roleClass: "leader-role" },
+         { name: "ツGU×FENRIR", avatar: "img/FENRIR.png", tag: "ТГ: @God_FENRIR", rank: "...", role: "Лидер", roleClass: "leader-role" },
      ], 
      top: ["🥇 ツGU×FENRIR"] },
     
@@ -41,7 +41,7 @@ const clans = [
      name: "ツGU×GHOST", 
      avatar: "img/clan3.png", 
      logo: "img/clan3.png", 
-     level: 3, 
+     level: 0, 
      membersCount: "0/30", 
      main: false, 
      leaders: [], 
