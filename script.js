@@ -107,7 +107,26 @@ if (clanPageExists) {
             `;
         });
 
-        const membersBlock = document.getElementById("membersList");
+        const members = document.getElementById("membersList");
+
+members.classList.add("members-grid");
+
+clan.members.forEach(m => {
+  members.innerHTML += `
+    <div class="member-card">
+      <img src="${m.avatar}">
+      
+      <div class="member-name">${m.name}</div>
+      <div class="member-tag">${m.tag}</div>
+      
+      <div class="member-rank">🏆 ${m.rank}</div>
+      
+      <div class="member-role ${m.roleClass}">
+        ${m.role}
+      </div>
+    </div>
+  `;
+});
         clan.members.forEach(m => {
             membersBlock.innerHTML += `
             <div class="member">
