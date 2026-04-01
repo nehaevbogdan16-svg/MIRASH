@@ -6,7 +6,7 @@ const clans = [
         avatar: "img/clan1.png",
         logo: "img/logo.png",
         level: 8,
-        membersCount: "12/60",
+        membersCount: "14/60",
         main: true,
         leaders: [
             { name: "ツGU×Margosha", avatar: "img/margo.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
@@ -27,7 +27,7 @@ const clans = [
      avatar: "img/clan2.png", 
      logo: "img/clan2.png", 
      level: 1, 
-     membersCount: "1/30", 
+     membersCount: "2/30", 
      main: false, 
      leaders: [
          { name: "ツGU×FENRIR", uid: "51619988168", avatar: "img/FENRIR.png", role: "Лидер", roleClass: "leader-role", main: true },
