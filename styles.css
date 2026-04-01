@@ -1,269 +1,100 @@
-/* === Îáùèå === */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Orbitron', sans-serif;
-    background: linear-gradient(180deg,#0a0f1c,#05070d);
-    color: #fff;
+  margin: 0;
+  font-family: Arial;
+  background: #052659;
+  color: white;
 }
 
-/* Çàãîëîâêè */
-header h1 {
-    text-align: center;
-    margin: 30px 0;
-    color: #facc15;
-    text-shadow: 0 0 10px #facc15;
+header {
+  background: #5381B2;
+  padding: 15px;
+  text-align: center;
 }
 
-.title {
-    font-size: 42px;
-    color: #facc15;
-    text-align: center;
-    margin: 30px 0;
-    text-shadow: 0 0 15px #facc15;
+h2 {
+  margin-top: 30px;
 }
 
-/* === Ëèäåðû === */
+.clan-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clan-card {
+  background: #0a3a7a;
+  border: 1px solid #7DA0CA;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+}
+
+.clan-card img {
+  width: 100px;
+}
+
+.clan-card a {
+  display: block;
+  margin-top: 10px;
+  color: #C2E8FF;
+}
+
+.clan-info {
+  text-align: center;
+}
+
+.clan-info img {
+  width: 120px;
+}
+
 .leaders {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin: 40px 0;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 .leader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-    transition: transform 0.3s;
+  background: #0a3a7a;
+  padding: 10px;
+  text-align: center;
 }
 
-    .leader img {
-        width: 120px;
-        height: 120px;
-        border-radius: 12px;
-        border: 2px solid #38bdf8;
-        object-fit: cover;
-    }
+.members {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-    .leader.main img {
-        border-color: #facc15;
-        box-shadow: 0 0 40px rgba(250,204,21,0.9);
-        transform: scale(1.2);
-    }
+.member {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #0a3a7a;
+  padding: 10px;
+}
 
-    .leader:hover {
-        transform: translateY(-5px);
-    }
+.member img {
+  width: 50px;
+  height: 50px;
+}
 
-/* === Ðîëè === */
 .role {
-    font-size: 12px;
-    padding: 4px 8px;
-    border-radius: 6px;
-    display: inline-block;
-    margin-top: 5px;
+  padding: 2px 6px;
+  border-radius: 5px;
 }
 
 .leader-role {
-    background: #facc15;
-    color: #000;
+  background: red;
 }
 
 .zam-role {
-    background: #38bdf8;
-    color: #000;
-}
-
-.elite-role {
-    background: #a855f7;
-    color: #fff;
-}
-
-.member-role {
-    background: #64748b;
-    color: #fff;
-}
-
-/* === Îñíîâíîé áëîê === */
-.main {
-    display: flex;
-    gap: 40px;
-    padding: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.members, .top {
-    flex: 1 1 350px;
-    background: rgba(255,255,255,0.03);
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.1);
-    min-width: 280px;
-}
-
-/* === Ó÷àñòíèêè === */
-.member {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-    padding: 12px;
-    border-radius: 8px;
-    transition: 0.3s;
-    background: rgba(255,255,255,0.02);
-}
-
-    .member img {
-        width: 50px;
-        height: 50px;
-        border-radius: 8px;
-        margin-right: 10px;
-        object-fit: cover;
-    }
-
-    .member:hover {
-        background: rgba(250,204,21,0.1);
-        transform: translateX(5px);
-    }
-
-/* === Òîï àêàäåìèè === */
-.top-item {
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 6px;
-    background: rgba(250,204,21,0.1);
-    font-weight: bold;
-    transition: 0.3s;
-    text-align: center;
-}
-
-    .top-item:hover {
-        background: rgba(250,204,21,0.25);
-    }
-
-/* === Êíîïêà êàñòîìîê === */
-button {
-    background: #facc15;
-    border: none;
-    padding: 14px 25px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s;
-    margin-top: 20px;
-}
-
-    button:hover {
-        background: #fff200;
-        transform: scale(1.05);
-    }
-
-/* === Àíèìàöèÿ === */
-.leader, .member, .top-item {
-    opacity: 0;
-    animation: fadeUp 0.6s ease forwards;
-}
-
-.leader {
-    animation-delay: 0.2s;
-}
-
-.member {
-    animation-delay: 0.3s;
+  background: orange;
+  color: black;
 }
 
 .top-item {
-    animation-delay: 0.4s;
+  background: #0a3a7a;
+  padding: 10px;
+  margin: 5px;
 }
-
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* === Ìîáèëüíàÿ âåðñèÿ === */
-@media (max-width:768px) {
-    .leaders {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .leader img {
-        width: 90px;
-        height: 90px;
-    }
-
-    .leader.main img {
-        transform: scale(1.1);
-    }
-
-    .main {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .members, .top {
-        width: 100%;
-        min-width: 100%;
-    }
-
-    .member img {
-        width: 45px;
-        height: 45px;
-    }
-
-    button {
-        width: 100%;
-    }
-}
-/* === Øàïêà êëàíà === */
-.clan-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    flex-wrap: wrap;
-}
-
-.clan-level,
-.clan-count {
-    font-size: 18px;
-    color: #facc15;
-    min-width: 80px;
-    text-align: center;
-}
-
-.clan-logo img {
-    height: 60px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Ìîáèëüíàÿ âåðñèÿ */
-@media (max-width:768px) {
-    .clan-header {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-        padding: 15px;
-    }
-
-    .clan-logo img {
-        height: 50px;
-    }
