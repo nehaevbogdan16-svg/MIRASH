@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Админка</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 style="text-align:center;">Админ-панель</h1>
+
+<div style="max-width:600px;margin:20px auto;">
+
+<h2>Добавить клан</h2>
+
+<input id="clanName" placeholder="Название клана"><br><br>
+<input id="clanId" placeholder="ID (например: storm)"><br><br>
+<input id="clanLevel" placeholder="Уровень"><br><br>
+<input id="clanAvatar" placeholder="Путь к аватарке (img/clan.png)"><br><br>
+
+<button onclick="addClan()">Добавить клан</button>
+
+<hr style="margin:40px 0;">
+
+<h2>Добавить участника</h2>
+
+<input id="memberClan" placeholder="ID клана"><br><br>
+<input id="memberName" placeholder="Ник"><br><br>
+<input id="memberAvatar" placeholder="Аватар (img/user.png)"><br><br>
+<input id="memberTag" placeholder="Тег"><br><br>
+
+<button onclick="addMember()">Добавить участника</button>
+
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
