@@ -1,6 +1,6 @@
 // ===================== НАСТРОЙКИ =====================
-const ADMIN_LOGIN = "admin";
-const ADMIN_PASSWORD = "1234";
+const ADMIN_LOGIN = "404507";
+const ADMIN_PASSWORD = "10 07 2024";
 
 let clans = JSON.parse(localStorage.getItem("clans")) || [];
 let editIndex = null;
