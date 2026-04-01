@@ -82,53 +82,51 @@ if (clanList) {
     });
 }
 
-// ===================== Страница клана =====================
-const clanPageExists = document.getElementById("clanName");
-if (clanPageExists) {
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
-    const clan = clans.find(c => c.id === id);
+// ===== СТРАНИЦА КЛАНА =====
+const clanPage = document.getElementById("clanName");
 
-    if (clan) {
-        document.getElementById("clanName").innerText = clan.name;
-        document.getElementById("clanLogo").src = clan.logo;
-        document.getElementById("clanLevel").innerText = "Ур. " + clan.level;
-        document.getElementById("clanCount").innerText = clan.membersCount;
+if (clanPage) {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get("id");
 
-        const leadersBlock = document.getElementById("leaders");
-        clan.leaders.forEach(l => {
-            leadersBlock.innerHTML += `
-            <div class="leader ${l.main ? 'main' : ''}">
-                <span class="role ${l.roleClass}">${l.role}</span>
-                <img src="${l.avatar}">
-                <span>${l.name}</span>
-                ${l.uid ? `<span>${l.uid}</span>` : ''}
-            </div>
-            `;
-        });
+  const clan = clans.find(c => c.id === id);
 
-     const members = document.getElementById("membersList");   
-        
-        clan.members.forEach(m => {
-            membersBlock.innerHTML += `
-            <div class="member">
-                <img src="${m.avatar}">
-                <div>
-                    ${m.name}<br>
-                    <small>${m.tag}</small><br>
-                    <small>${m.rank}</small><br>
-                    <span class="role ${m.roleClass}">${m.role}</span>
-                </div>
-            </div>
-            `;
-        });
+  if (!clan) {
+    document.body.innerHTML = "<h1>Клан не найден</h1>";
+  } else {
+    document.getElementById("clanName").innerText = clan.name;
+    document.getElementById("clanLogo").src = clan.logo;
+    document.getElementById("clanLevel").innerText = "Ур. " + clan.level;
+    document.getElementById("clanCount").innerText = clan.membersCount;
 
-        const topBlock = document.getElementById("topList");
-        clan.top.forEach(t => {
-            topBlock.innerHTML += `<div class="top-item">${t}</div>`;
-        });
+    const leaders = document.getElementById("leaders");
+    clan.leaders.forEach(l => {
+      leaders.innerHTML += `
+        <div class="leader">
+          <span class="role ${l.roleClass}">${l.role}</span><br>
+          <img src="${l.avatar}">
+          <div>${l.name}</div>
+        </div>
+      `;
+    });
 
-    } else {
-        document.body.innerHTML = "<h1 style='text-align:center;margin-top:100px;'>Клан не найден</h1>";
-    }
+    const members = document.getElementById("membersList");
+    clan.members.forEach(m => {
+      members.innerHTML += `
+        <div class="member">
+          <img src="${m.avatar}">
+          <div>
+            ${m.name}<br>
+            <small>${m.tag}</small><br>
+            <span class="role ${m.roleClass}">${m.role}</span>
+          </div>
+        </div>
+      `;
+    });
+
+    const top = document.getElementById("topList");
+    clan.top.forEach(t => {
+      top.innerHTML += `<div class="top-item">${t}</div>`;
+    });
+  }
 }
