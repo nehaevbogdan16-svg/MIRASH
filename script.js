@@ -1,5 +1,5 @@
 // ===================== ДАННЫЕ КЛАНОВ =====================
-const clans = [
+let clans = JSON.parse(localStorage.getItem("clans")) || [
     {
         id: "mirash",
         name: "MIRASH FAMILY",
