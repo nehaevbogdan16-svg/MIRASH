@@ -3,8 +3,8 @@ const clans = [
     {
         id: "mirash",
         name: "2PIK FAMILY",
-        avatar: "img/clan1.png",
-        logo: "img/logo.png",
+        avatar: "img/2PIK.png",
+        logo: "img/2PIK.png",
         level: 9,
         membersCount: "22/60",
         main: true,
