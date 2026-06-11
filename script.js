@@ -9,18 +9,18 @@ const clans = [
         membersCount: "22/60",
         main: true,
         leaders: [
-            { name: "2PIK丨Margosha", avatar: "img/margo.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
-            { name: "2PIK丨Bogdan", avatar: "img/bogdan.png", role: "Лидер", roleClass: "leader-role", main: true },
-            { name: "2PIK丨Ｐｒｅｓ", avatar: "img/vlad.png", role: "Заместитель", roleClass: "zam-role", uid: "5958320567" }
+            { name: "2PIK丨GRESHNCA", avatar: "img/margo.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
+            { name: "2PIK丨GRESHNIK", avatar: "img/bogdan.png", role: "Лидер", roleClass: "leader-role", main: true },
+            { name: "2PIK丨Ｌｉｎｋ", avatar: "img/vlad.png", role: "Заместитель", roleClass: "zam-role", uid: "5958320567" }
         ],
         members: [
-            { name: "ツGU×Bogdan", avatar: "img/bogdan.png", tag: "ТГ: @Bogdan_10_07_24", rank: "Корона", role: "Лидер", roleClass: "leader-role" },
-            { name: "ツGU×Margosha", avatar: "img/margo.png", tag: "ТГ: @ofiwxlz", rank: "Корона", role: "Заместитель", roleClass: "leader-role" },
-            { name: "ツGU×Ｐｒｅｓ", avatar: "img/vlad.png", tag: "ТГ: @Likorinenko", rank: "Корона", role: "Заместитель", roleClass: "zam-role" },
-            { name: "ツGU×ГАЗ", avatar: "img/GAS.png", tag: "UID: 5438651452", rank: "Алмаз", role: "Член клана", roleClass: "member-role" },
-           { name: "ツGU×DRANNIK", avatar: "img/DRANNIK.png", tag: "UID: 5647598839", rank: "Платина", role: "Член клана", roleClass: "member-role" }
+            { name: "2PIK丨GRESHNIK", avatar: "img/bogdan.png", tag: "ТГ: @Bogdan_10_07_24", rank: "Корона", role: "Лидер", roleClass: "leader-role" },
+            { name: "2PIK丨GRESHNCA", avatar: "img/margo.png", tag: "ТГ: @ofiwxlz", rank: "Корона", role: "Заместитель", roleClass: "leader-role" },
+            { name: "2PIK丨Ｌｉｎｋ", avatar: "img/vlad.png", tag: "ТГ: @Likorinenko", rank: "Корона", role: "Заместитель", roleClass: "zam-role" },
+            { name: "2PIK丨SCAM", avatar: "img/SCAM.png", tag: "ТГ: @@Solo_Leveling_666", tag: "UID: 5438651452", rank: "Корона", role: "Заместитель", roleClass: "member-role" },
+           { name: "2PIK丨SPEED", avatar: "img/SPEED.png", tag: "UID: ...", rank: "...", role: "Элита", roleClass: "member-role" }
         ],
-        top: ["🥇 ツGU×Bogdan", "🥈 ツGU×Margosha", "🥉 ツGU×Ｐｒｅｓ", "4 ツGU×DRANNIK"]
+        top: ["🥇 2PIK丨GRESHNIK", "🥈 2PIK丨GRESHNCA", "🥉 2PIK丨Ｌｉｎｋ", "4 2PIK丨SCAM"]
     },
     { id: "storm", 
      name: "ツGU×STORM", 
