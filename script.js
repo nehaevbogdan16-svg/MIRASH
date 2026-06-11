@@ -2,16 +2,16 @@
 const clans = [
     {
         id: "mirash",
-        name: "MIRASH FAMILY",
+        name: "2PIK FAMILY",
         avatar: "img/clan1.png",
         logo: "img/logo.png",
-        level: 8,
-        membersCount: "14/60",
+        level: 9,
+        membersCount: "22/60",
         main: true,
         leaders: [
-            { name: "ツGU×Margosha", avatar: "img/margo.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
-            { name: "ツGU×Bogdan", avatar: "img/bogdan.png", role: "Лидер", roleClass: "leader-role", main: true },
-            { name: "ツGU×Ｐｒｅｓ", avatar: "img/vlad.png", role: "Заместитель", roleClass: "zam-role", uid: "5958320567" }
+            { name: "2PIK丨Margosha", avatar: "img/margo.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
+            { name: "2PIK丨Bogdan", avatar: "img/bogdan.png", role: "Лидер", roleClass: "leader-role", main: true },
+            { name: "2PIK丨Ｐｒｅｓ", avatar: "img/vlad.png", role: "Заместитель", roleClass: "zam-role", uid: "5958320567" }
         ],
         members: [
             { name: "ツGU×Bogdan", avatar: "img/bogdan.png", tag: "ТГ: @Bogdan_10_07_24", rank: "Корона", role: "Лидер", roleClass: "leader-role" },
