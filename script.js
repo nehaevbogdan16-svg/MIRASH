@@ -9,17 +9,17 @@ const clans = [
         membersCount: "16/60",
         main: true,
         leaders: [
-            { name: "2PIK丨GRESHNCA", avatar: "img/margo.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
-            { name: "2PIK丨GRESHNIK", avatar: "img/bogdan.png", role: "Лидер", roleClass: "leader-role", uid: "51514497454", },
+            { name: "2PIK丨GRESHNCA", avatar: "img/GRESHNCA.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
+            { name: "2PIK丨GRESHNIK", avatar: "img/GRESHNIK.png", role: "Лидер", roleClass: "leader-role", uid: "51514497454", },
             { name: "2PIK丨SCAM", avatar: "img/SCAM.png", role: "Заместитель", roleClass: "zam-role", uid: "51655879673" },
             { name: "2PIK丨SPEED", avatar: "img/SPEED.png", role: "Заместитель", roleClass: "zam-role", uid: "51900179636" },
-            { name: "2PIK丨Ｌｉｎｋ", avatar: "img/vlad.png", role: "Заместитель", roleClass: "zam-role", uid: "5958320567" }
+            { name: "2PIK丨Ｌｉｎｋ", avatar: "img/link.png", role: "Заместитель", roleClass: "zam-role", uid: "5958320567" }
         ],
         members: [
            // ===================== Лидер Заместитель =====================
-            { name: "2PIK丨GRESHNIK", avatar: "img/bogdan.png", tag: "ТГ: @no2PIK", rank: "", role: "Лидер", roleClass: "leader-role" },
-            { name: "2PIK丨GRESHNCA", avatar: "img/margo.png", tag: "ТГ: @ofiwxlz", rank: "", role: "Заместитель", roleClass: "leader-role" },
-            { name: "2PIK丨Ｌｉｎｋ", avatar: "img/vlad.png", tag: "ТГ: @Likorinenko", rank: "", role: "Заместитель", roleClass: "zam-role" },
+            { name: "2PIK丨GRESHNIK", avatar: "img/GRESHNIK.png", tag: "ТГ: @no2PIK", rank: "", role: "Лидер", roleClass: "leader-role" },
+            { name: "2PIK丨GRESHNCA", avatar: "img/GRESHNCA.png", tag: "ТГ: @ofiwxlz", rank: "", role: "Заместитель", roleClass: "leader-role" },
+            { name: "2PIK丨Ｌｉｎｋ", avatar: "img/link.png", tag: "ТГ: @Likorinenko", rank: "", role: "Заместитель", roleClass: "zam-role" },
             { name: "2PIK丨SCAM", avatar: "img/SCAM.png", tag: "ТГ: @Solo_Leveling_666", tag: "UID: 5438651452", rank: "", role: "Заместитель", roleClass: "zam-role" },
             { name: "2PIK丨SPEED", avatar: "img/SPEED.png", tag: "UID: 51900179636", rank: "", role: "Заместитель", roleClass: "zam-role" },
             // ===================== Элита =====================
