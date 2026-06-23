@@ -10,7 +10,7 @@ const clans = [
         main: true,
         leaders: [
             { name: "2PIK丨GRESHNCA", avatar: "img/margo.png", role: "Заместитель", roleClass: "leader-role", uid: "51514497454" },
-            { name: "2PIK丨GRESHNIK", avatar: "img/bogdan.png", role: "Лидер", roleClass: "leader-role", main: true },
+            { name: "2PIK丨GRESHNIK", avatar: "img/bogdan.png", role: "Лидер", roleClass: "leader-role", uid: "51514497454", main: true },
             { name: "2PIK丨SCAM", avatar: "img/SCAM.png", role: "Заместитель", roleClass: "zam-role", uid: "51655879673" },
             { name: "2PIK丨SPEED", avatar: "img/SPEED.png", role: "Заместитель", roleClass: "zam-role", uid: "51900179636" },
             { name: "2PIK丨Ｌｉｎｋ", avatar: "img/vlad.png", role: "Заместитель", roleClass: "zam-role", uid: "5958320567" }
